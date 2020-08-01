@@ -2,3 +2,48 @@
   margin: 0 auto;
   padding: 0;
 }
+
+
+
+
+
+<form id="dropdown">
+  <label for="care-level" id="dropdown">
+    How much do you even care?
+  </label>
+  <select name="care-level">
+    <option value="a lot">a lot</option>
+    <option value="eh, somewhat">eh, somewhat</option>
+    <option value="not at all">not at all</option>
+  </select>
+</form>
+ 
+        How much do you even care?
+        <form id>
+          <select class="" name="care-level">
+            <option value="a lot">a lot</option>
+            <option value="eh, somewhat">eh, somewhat</option>
+            <option value="not at all">not at all</option>
+          </select>
+        </form>
+
+
+        <form class="" action="index.html" id="dropdown">
+
+          <label for="a lot">
+          How much do you even know about what you're doing?
+          </label>
+          <input type="radio" name="a lot">
+          a lot
+
+          <label for="somewhat">
+          </label>
+          <input type="radio" name="somewhat">
+          eh, somewhat
+
+          <label for="not at all">
+          </label>
+          <input type="radio" name="not at all">
+          not at all
+        </form>
+      </div>

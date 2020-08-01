@@ -11,52 +11,41 @@
         <h1 id="title">Survey?</h1>
         <p id="description">this is a survey to find out what this survey is about</p>
       </div>
+
+        <form id="survey-form">
+          <div class="form-general">
+            <label for="name" id="name-label">
+              Name:
+            </label>
+            <input type="text" placeholder="Your name" id="name" required>
+          </div>
+
+          <div class="">
+            <form id="email-form">
+              <div class="form-general">
+                <label for="email" id="email-label">
+                  Email:
+                </label>
+              <input type="email" placeholder="Your email" id="email" required>
+            </div>
+
+            <div class="">
+              <form id="number-form">
+                <div class="form-general">
+                  <label for="number" id="number-label">
+                    Age:
+                  </label>
+                <input type="number" placeholder="Your age" id="number" required min="18" max="120">
+              </div>
+
+
+
+
+
+        </form>
+
       <div class="">
-        Name
-        <form class="" action="index.html" id="name">
-          <input type="text" placeholder="your name" id="name-label" required>
-        </form>
-
-        Email
-        <form class="" action="index.html" id="email">
-          <input type="text" placeholder="your email" id="email-label" required>
-        </form>
-
-        Age
-        <form class="" action="index.html" id="number">
-          <input type="number" placeholder="your age" min="0" max="120" id="number-label">
-        </form>
-
-        How much do you even care?
-        <form class="" action="index.html">
-          <select class="" name="care-level">
-            <option value="a lot">a lot</option>
-            <option value="eh, somewhat">eh, somewhat</option>
-            <option value="not at all">not at all</option>
-          </select>
-        </form>
-
-        How much do you even know about what you're doing?
-        <form class="" action="index.html">
-
-          <label for="a lot">
-            <input type="radio" name="a lot">
-            a lot
-          </label>
-
-          <label for="somewhat">
-            <input type="radio" name="somewhat">
-            eh, somewhat
-          </label>
-
-          <label for="not at all">
-            <input type="radio" name="not at all">
-            not at all
-          </label>
-        </form>
-      </div>
-      <div class="">
-        <button type="button" name="submit">Submit</button>
+        <button type="button" name="submit" id="submit">Submit</button>
       </div>
     </main>
   </body>
