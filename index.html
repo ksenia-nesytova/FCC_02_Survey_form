@@ -12,26 +12,33 @@
         <p id="description">this is a survey to find out what this survey is about</p>
       </div>
       <div class="">
+        Name
         <form class="" action="index.html" id="name">
-          <input type="text" placeholder="your name" id="name-label">
+          <input type="text" placeholder="your name" id="name-label" required>
         </form>
 
+        Email
         <form class="" action="index.html" id="email">
-          <input type="text" placeholder="your email" id="email-label">
+          <input type="text" placeholder="your email" id="email-label" required>
         </form>
 
+        Age
         <form class="" action="index.html" id="number">
           <input type="number" placeholder="your age" min="0" max="120" id="number-label">
         </form>
+
+        How much do you even care?
         <form class="" action="index.html">
           <select class="" name="care-level">
             <option value="a lot">a lot</option>
             <option value="eh, somewhat">eh, somewhat</option>
-            <option value="not at all">not at all</option>         
+            <option value="not at all">not at all</option>
           </select>
         </form>
       </div>
-
+      <div class="">
+        <button type="button" name="submit">Submit</button>
+      </div>
     </main>
   </body>
 </html>
