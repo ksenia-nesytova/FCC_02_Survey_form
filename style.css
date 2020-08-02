@@ -5,8 +5,18 @@
 
 body {
   background-color: #a2f0ff;
-  font-family: helvetica;
+  font-family: century;
   line-height: normal;
+}
+
+h1 {
+  font-weight:bolder;
+  text-align: center;
+  }
+
+#description {
+  font-style: italic;
+  text-align: center;
 }
 
 .container {
