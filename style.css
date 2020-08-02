@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  max-width: 1219px;
+  max-width: 800px;
   padding: auto;
   text-align: center;
+  background-color: #e3e620;
 }
