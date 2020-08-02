@@ -4,14 +4,19 @@
 }
 
 body {
-  background-color: #fcff58;
+  background-color: #a2f0ff;
   font-family: helvetica;
   line-height: normal;
 }
 
 .container {
   max-width: 800px;
-  padding: auto;
-  text-align: center;
-  background-color: #e3e620;
+  padding-left: 55px;
+  padding-right: 55px;
+  text-align: left;
+  background-color: #62d0e6;
+}
+
+ul {
+  list-style: none;
 }
