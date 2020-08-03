@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #a2f0ff;
+  background-color: #4ad1a4;
   font-family: 'Poppins', sans-serif;
   padding: 20px;
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
   padding-left: 55px;
   padding-right: 55px;
   text-align: left;
-  background-color: #62d0e6;
+  background-color: white;
 }
 
 form {
