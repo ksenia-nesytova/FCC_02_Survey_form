@@ -7,82 +7,16 @@
   </head>
   <body>
     <main>
-    <div class="container">
-      <div class="container">
-        <h1 id="title">Survey?</h1>
-        <p id="description">this is a survey to find out what this survey is about</p>
-      </div>
+      <div class="">
+        <form>
+          <label for="name">First Name</label>
+          <input type="text" id="name">
 
-        <div class="container">
-          <form id="survey-form">
-            <label for="name" id="name-label">
-              Name:
-            </label>
-            <input type="text" placeholder="Your name" id="name" required>
-          </div>
+          <label for="email">Email</label>
+          <input type="email" id="email">
 
-          <div class="container">
-            <form id="email-form">
-              <div class="form-general">
-                <label for="email" id="email-label">
-                  Email:
-                </label>
-              <input type="email" placeholder="Your email" id="email" required>
-            </div>
-
-            <div class="container">
-              <form id="number-form">
-                <div class="form-general">
-                  <label for="number" id="number-label">
-                    Age:
-                  </label>
-                <input type="number" placeholder="Your age" id="number" required min="18" max="120">
-              </div>
-
-              <div class="container">
-                <form id="checkbox">
-                  <label for="checkbox">What kind of pet would you get?</label>
-                  <ul>
-                    <li>
-                      <input type="checkbox" name="cat" value="cat">
-                      <label for="cat">Cat</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="dog" value="dog">
-                      <label for="dog">Dog</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="rat" value="rat">
-                      <label for="rat">Rat</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="reptile" value="reptile">
-                      <label for="reptile">Reptile</label>
-                    </li>
-                  </ul>
-                </form>
-              </div>
-
-              <div class="container">
-                <form id="radio" >
-                  <label for="radio" id="radio">
-                    Food or Sleep?
-                  </label>
-                  <ul>
-                    <li>
-                      <input type="radio" name="fs" value="sleep">
-                      Sleep
-                    </li>
-                    <li>
-                      <input type="radio" name="fs" value="food">
-                      Food
-                    </li>
-                  </ul>
-                </form>
-              </div>
-              <textarea name="name" rows="8" cols="80"></textarea>
         </form>
-
+      </div>
       <div class="">
         <button id="submit">
           Submit
