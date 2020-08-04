@@ -7,56 +7,61 @@
   </head>
   <body>
     <main>
-      <div class="">
-        <h1 id="title">Survey?</h1>
-        <p id="description">this is a survey to find out what this survey is about</p>
-      </div>
-      <div class="">
-        Name
-        <form class="" action="index.html" id="name">
-          <input type="text" placeholder="your name" id="name-label" required>
-        </form>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <div class="container">
+        <form id="survey-form">
 
-        Email
-        <form class="" action="index.html" id="email">
-          <input type="text" placeholder="your email" id="email-label" required>
-        </form>
+            <label for="name" id="name-label">First Name:</label>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+            <br>
+          <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" placeholder="Enter your Email" required>
 
-        Age
-        <form class="" action="index.html" id="number">
-          <input type="number" placeholder="your age" min="0" max="120" id="number-label">
-        </form>
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" id="number" placeholder="Age" min="16" max="100">
 
-        How much do you even care?
-        <form class="" action="index.html">
-          <select class="" name="care-level">
-            <option value="a lot">a lot</option>
-            <option value="eh, somewhat">eh, somewhat</option>
-            <option value="not at all">not at all</option>
+        <div>
+          <label for="dropdown">Which option best describes your current role?</label>
+          <br>
+          <select id="dropdown" name="role">
+            <option value="student">Student</option>
+            <option value="full-time">Full Time Job</option>
+            <option value="other">Other</option>
           </select>
+        </div>
+        <br>
+          <div>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="definitely"><input type="radio" name="recommend" value="definitely" id="definitely">Definitely</label>
+            <br>
+            <label for="maybe"><input type="radio" name="recommend" value="maybe" id="maybe">Maybe</label>
+            <br>
+            <label for="not-sure"><input type="radio" name="recommend" value="not-sure" id="not-sure">Not Sure</label>
+          </div>
+          <br>
+          <div>
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <ul>
+
+            <li><label for="front-end"><input type="checkbox" name="front-end" value="front-end" id="front-end">Front-end Projects</label>
+            </li>
+            <li>
+            <label for="back-end">  <input type="checkbox" name="back-end" value="back-end" id="back-end">Back-end Projects</label>
+            </li>
+            <label for="data-vis"><input type="checkbox" name="data-vis" value="data-vis" id="data-vis">Data Visualization</label>
+          </ul>
+          </div>
+          <br>
+          <div>
+            <label for="suggestions">Any comments or suggestions?</label>
+            <textarea name="suggestions" rows="8" cols="80" id="suggestions">Enter your comment here...
+            </textarea>
+            <button id="submit">
+              Submit
+            </button>
+          </div>
         </form>
-
-        How much do you even know about what you're doing?
-        <form class="" action="index.html">
-
-          <label for="a lot">
-            <input type="radio" name="a lot">
-            a lot
-          </label>
-
-          <label for="somewhat">
-            <input type="radio" name="somewhat">
-            eh, somewhat
-          </label>
-
-          <label for="not at all">
-            <input type="radio" name="not at all">
-            not at all
-          </label>
-        </form>
-      </div>
-      <div class="">
-        <button type="button" name="submit">Submit</button>
       </div>
     </main>
   </body>

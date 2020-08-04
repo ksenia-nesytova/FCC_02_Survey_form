@@ -1,4 +1,67 @@
 * {
   margin: 0 auto;
   padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #4ad1a4;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  }
+
+#description {
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  background-color: white;
+}
+
+form {
+  padding: 30px 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="number"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
 }
