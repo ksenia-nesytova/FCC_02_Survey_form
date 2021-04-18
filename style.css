@@ -48,10 +48,23 @@ select  {
   width: 100%;
   padding: 0.7em;
   margin-top: 0.7em;
-  margin-bottom: 0.7em;
+  margin-bottom: 0.3em;
+  border: 1px solid #404040;
+  border-radius: 3px;
 }
 
 
 ul {
   list-style: none;
+}
+
+#submit {
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit:hover, #submit:focus {
+  background-color: #6fad9f;
 }
