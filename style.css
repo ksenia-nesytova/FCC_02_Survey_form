@@ -26,6 +26,7 @@ h1 {
 .container {
   max-width: 500px;
   background-color: white;
+  border-radius: 5px;
 }
 
 form {
@@ -50,7 +51,7 @@ select  {
   margin-top: 0.7em;
   margin-bottom: 0.3em;
   border: 1px solid #404040;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 
@@ -61,7 +62,7 @@ ul {
 #submit {
   padding: 0.5em;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
