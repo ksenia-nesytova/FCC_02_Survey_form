@@ -48,8 +48,7 @@ select  {
   box-sizing: border-box;
   width: 100%;
   padding: 0.7em;
-  margin-top: 0.7em;
-  margin-bottom: 0.3em;
+  margin: .25em 0 1em;
   border: 1px solid #404040;
   border-radius: 5px;
 }
@@ -59,7 +58,13 @@ ul {
   list-style: none;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: .5em;
+}
+
 #submit {
+  width: 100%;
   padding: 0.5em;
   border: none;
   border-radius: 5px;
@@ -67,8 +72,12 @@ ul {
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
+  background: linear-gradient(#80ebc7, #6fad9f);
+  color: white;
+  transition: color 0.5s;
 }
 
 #submit:hover, #submit:focus {
-  background-color: #6fad9f;
+  background: #6fad9f;
+  color: black;
 }
