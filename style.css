@@ -64,6 +64,9 @@ ul {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 #submit:hover, #submit:focus {
