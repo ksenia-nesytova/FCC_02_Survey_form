@@ -44,7 +44,7 @@ input {
 input[type="text"],
 input[type="email"],
 input[type="number"],
-select  {
+select, textarea  {
   box-sizing: border-box;
   width: 100%;
   padding: 0.7em;
@@ -61,7 +61,9 @@ ul {
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: .5em;
+  margin-top: .25em;
 }
+
 
 #submit {
   width: 100%;
